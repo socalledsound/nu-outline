@@ -3,10 +3,11 @@
 ### week 2 : Hooks, State, Router
 
     PROJECT: my bouncy bouncy heart or similar
-        --clickable hearts (or other shape), perhaps with a little css animation?
+        --clickable hearts (or other shape)
         -- this time use font awesome
         -- ternary operator to choose icon
-        -- useState hook -  array destructuring
+        -- useState hook -  (array destructuring)
+        -- for a little fun bring in a useSpring here?  or is that too much?
 
     Campsite Detail Component
         useState on Campsite Directory Page for selectedCampsite
