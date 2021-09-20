@@ -76,8 +76,10 @@
     delete the source and start over.
     REACTSTRAP
     create the folders we'll eventually need:
-        --app
+        --app - 'shared' folder.  show them the data right off the bat.
+            -- maybe a whole video talking about data somewhere????
         --assets (can we start importing images as files into our app?)
+            -- maybe a video on importing images into react somewhere?
         --components
         --features
         --pages
