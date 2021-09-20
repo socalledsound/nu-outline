@@ -31,6 +31,7 @@
     PROJECT: react Heartz:
     environment setup.  node.  node version manager?
     do we want to also have a video on npm, github, and the node_modules folder?
+    (CODE CHALLENGE HERE??? deleting and bringing back node modules folder?)
     perhaps even before we CRA, they download the github repo for the hearts and install it that way, run it and see it in action, then ask them to delete it and build it from scratch.
     CRA.  (can we use NPX?)
     Index.js
@@ -46,8 +47,12 @@
     App Component (will just be a container)
         --write the app and export it then import it.
         -- JSX
+    JS: object AND ARRAY destructuring (CODE CHALLENGE HERE)
+        -- remember how functions have a single return value?
+        -- object and array destructuring comes in really handy here!
     feature folder: Heart
         -- give the heart a position
+        -- props
     components folder: Circle, Square
         -- Circle, Square
     JS: Array Methods: Array.map()
