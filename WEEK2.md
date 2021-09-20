@@ -21,3 +21,7 @@
 
 similar to week 3 workshop.
 new Feature: partners
+-- PartnersList
+-- Partner
+-- get data from shared
+AboutPage

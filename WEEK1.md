@@ -32,6 +32,8 @@
     environment setup.  node.  node version manager?
     do we want to also have a video on npm, github, and the node_modules folder?
     (CODE CHALLENGE HERE??? deleting and bringing back node modules folder?)
+    (CODE CHALLENGE ON GIT AND BRANCHES??)
+    GIT/GITHUB/BRANCHES/HOW TO USE THESE REPOS
     perhaps even before we CRA, they download the github repo for the hearts and install it that way, run it and see it in action, then ask them to delete it and build it from scratch.
     CRA.  (can we use NPX?)
     Index.js
