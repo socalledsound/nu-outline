@@ -1,5 +1,7 @@
 ## React Course Outline week 4
 
+# WEEKS 2-5 are just in the beginning stage!!!
+
 # REDUX
 
     WHAT IS REDUX and what is it good for

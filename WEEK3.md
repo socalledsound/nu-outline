@@ -1,5 +1,7 @@
 ## React Course Outline week 3
 
+# WEEKS 2-5 are just in the beginning stage!!!
+
 ##### custom hooks + forms + animation
 
     SIDE PROJECT: log in user useForm hook ?

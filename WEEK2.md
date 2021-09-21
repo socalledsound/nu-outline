@@ -1,5 +1,7 @@
 ## React Course Outline week 2
 
+# WEEKS 2-5 are just in the beginning stage!!!
+
 ### week 2 : Hooks, State, Router
 
     PROJECT: my bouncy bouncy heart or similar

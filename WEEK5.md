@@ -1,5 +1,7 @@
 ## React Course Outline week 5
 
+# WEEKS 2-5 are just in the beginning stage!!!
+
 # ASYNC REDUX ++ ASYNC JAVASCRIPT
 
     side project: weather app?  or some other api call
