@@ -1,4 +1,4 @@
-# React Course Outline
+## React Course Outline week 1
 
 ### week 1 : introduction to react
 

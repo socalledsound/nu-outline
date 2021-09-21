@@ -1,4 +1,4 @@
-# React Course Outline
+## React Course Outline week 2
 
 ### week 2 : Hooks, State, Router
 
@@ -8,6 +8,7 @@
         -- ternary operator to choose icon
         -- useState hook -  (array destructuring)
         -- for a little fun bring in a useSpring here?  or is that too much?
+            -- probably better in week 3
 
     Campsite Detail Component
         useState on Campsite Directory Page for selectedCampsite
