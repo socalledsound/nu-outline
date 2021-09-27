@@ -29,3 +29,6 @@ new Feature: partners
 -- Partner
 -- get data from shared
 AboutPage
+
+extras
+https://www.youtube.com/watch?v=TNhaISOUy6Q

@@ -10,5 +10,7 @@
         FETCH
         PROMISES
 
+    will have to also refactor the animations
+
 WORKSHOP:
 same as before but hopefully more manageable now!
