@@ -4,22 +4,30 @@
 
 ### week 2 : Hooks, State, Router
 
-    PROJECT: my bouncy bouncy heart or similar
-        --clickable hearts (or other shape)
-        -- this time use font awesome
-        -- ternary operator to choose icon
-        -- useState hook -  (array destructuring)
-        -- for a little fun bring in a useSpring here?  or is that too much?
-            -- probably better in week 3
+    --What is a 'hook'?
+    --useState()
+    -- (array destructuring aleady covered)
+    --clickable heart with FA
+        -- ternary operator
 
-    Campsite Detail Component
-        useState on Campsite Directory Page for selectedCampsite
+
+
+    Selected Campsite
+        useState on Campsite Directory Page for selectedCampsite -- > 
+            campsiteDetail component
 
     Router
+        -- What is a SPA?
+        -- link tags vs Link tags
+        -- Routers
         Header and Footer
         BreadCrumbs must come in here somewhere
-        CampsiteDetailPage
-        new feature: Comments
+        CampsiteDetailPage 
+            -- move campsite detail to a new page
+
+    -- new feature: Comments
+        -- get some more practice with iterating
+        -- 
 
 # week2 workshop:
 

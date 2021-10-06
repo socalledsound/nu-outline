@@ -1,14 +1,29 @@
 ## React Course Outline week 3
 
-# WEEKS 2-5 are just in the beginning stage!!!
-
 ##### animation ++ formik
 
-fwiw react-spring install seems to work fine with yarn add, while npm requires specifying peer dependencies and praying.
--- IS THIS A REASON TO PERHAPS NOT USE LIBRARIES?
+
 
 LET'S DO MORE WITH ANIMATION:
 2 options on main home page - one with a fade/slide - one with a carousel transition
+
+fwiw react-spring install seems to work fine with yarn add, while npm requires specifying peer dependencies and praying.
+-- (this might ultimately be a great reason to skip animation
+libraries entirely and just use css with custom hooks? but for now let's use spring)
+--(Motion aka framer motion might be closer to formik fwiw, they do namecheck it in the formik docs...)
+
+
+### animation
+
+    -- animated menu feature
+        -- featured items (at this point they're coming down
+        as props from the App)
+        
+    -- CHALLENGE -- make the buttons and a toggle using useState
+    -- challenge answer
+    -- two options, for now one just says carousel
+    -- the other one, we build:
+        -- 
 
 start with a simple custom hook that chooses the animation component to render
 
