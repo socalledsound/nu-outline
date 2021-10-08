@@ -1,16 +1,31 @@
 ## React Course Outline week 5
 
-# WEEKS 2-5 are just in the beginning stage!!!
-
 # ASYNC REDUX ++ ASYNC JAVASCRIPT
 
-    side project: weather app?  or some other api call
-        do it without redux first
-        react query ?!?!
-        FETCH
-        PROMISES
+## old stuff to keep:
 
-    will have to also refactor the animations
+    client server communication
+    fetch but I'd like to redo and expand on promises
+    thunk, but needs to be updated
+    we already did animation but will need to revisit it for the loading state
+    building and deployment
+        -- those three sections are pretty good?
+        -- but I think we should lean on the CI approach harder because it's so much better
+
+#### v1 callback functions
+
+    -- set timeout x 2
+    -- how do we wait until the first one has finished?
+
+#### v2 PROMISES
+
+#### v3 API call side project with react query
+
+    -- (RESEARCH SOME COOLER APIS?)
+
+#### v4
+
+# ((( will have to also refactor the animations )))
 
 WORKSHOP:
 same as before but hopefully more manageable now!

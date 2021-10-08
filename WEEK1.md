@@ -1,5 +1,23 @@
 ## React Course Outline week 1
 
+# approx how many minutes of videos per week????
+
+currently two sections, 8 vids and 5 vids
+i have approx 17 below, in three sections
+
+##### old week 2 material:
+
+123 can probably be mostly kept, just updated -- and perhaps expand a bit
+keep 4 vscode thing
+7 reactstrap - update
+
+CHALLENGES ALL CLASS BASED
+challenge : jsx and state
+challenge : constructing lists - i
+challenge : passing props - party time.
+
+challenge: object destructuring from week 3
+
 ### week 1 : introduction to react
 
 ##### hello and welcome to the course - 1 short video
@@ -26,7 +44,7 @@
         this render function is a lot like something you're about to see in React,
             except that it is diffing the 'real' DOM against the virtual DOM.
 
-##### Getting Started With React right now looks like 10-12 10 min videos
+##### Getting Started With React right now looks like 10-12 10 min videos (is that too many!!!??)
 
     PROJECT: react Heartz:
     environment setup.  node.  node version manager?
@@ -35,7 +53,7 @@
     (CODE CHALLENGE ON GIT AND BRANCHES??)
     GIT/GITHUB/BRANCHES/HOW TO USE THESE REPOS
     perhaps even before we CRA, they download the github repo for the hearts and install it that way, run it and see it in action, then ask them to delete it and build it from scratch.
-    CRA.  (can we use NPX?)
+    CRA.
     Index.js
         - ReactDOM.render() (I'd like to ask them to delete everything in the source folder!  and rewrite it from scratch)
         - How the virtual DOM works
@@ -49,6 +67,7 @@
     App Component (will just be a container)
         --write the app and export it then import it.
         -- JSX
+        -- PROPS
     JS: object AND ARRAY destructuring (CODE CHALLENGE HERE)
         -- remember how functions have a single return value?
         -- object and array destructuring comes in really handy here!
@@ -71,26 +90,41 @@
         -- leave them with a challenge to take a getRandomColor function and make the hearts all have random colors.
     Challenge answer
 
-##### Starting the Nucamp Project looks like 4 7.5 min videos to me?
+##### Starting the Nucamp Project looks like 2-3 7.5 min videos to me?
 
     Overview:  let's look at animage of the finished site home page and try to understand it as components.
     CRA
-    delete the source and start over.
-    REACTSTRAP
+    delete the source and start over, writing out index.js and App.js
+
+#
+
+    REACTSTRAP - video or just instructions?
+
+#
+
     create the folders we'll eventually need:
         --app - 'shared' folder.  show them the data right off the bat.
             -- maybe a whole video talking about data somewhere????
-        --assets (can we start importing images as files into our app?)
+        --assets (can we import images as files into our app instead of pulling them in as URLs?)
             -- maybe a video on importing images into react somewhere?
         --components
         --features
         --pages
         --utils
-        -- we may not have anything in them yet.
+        -- we won't have anything in them yet.
+
+#
+
     create the App component
+        -- css className
+
+#
+
+    ACTUALLY I THINK THIS COMES IN WEEK3?
     create CampsiteDirectoryPage
 
 ## workshop week 1:
 
     create features/campsite, create CampsiteList and CampsiteCard, use map to make the list,
-    and bring it in to the CampsiteDirectoryPage.
+    and bring it in to the App.
+    work on the header and the footer a bit
