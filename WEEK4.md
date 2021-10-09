@@ -51,7 +51,7 @@ flux
     one more example, where we return an object
     THE REDUCER IS THE FUNCTION YOU PASS IN TO REDUCE
 
-#### v4 3-5 mins APP 1 (this will be several videos)
+#### v4 3-5 mins Small Redux App (this will be several videos)
 
     PROJECT: build a small app
     Drawing app (or likable images app???  drawing app has less setup)
@@ -111,9 +111,15 @@ flux
     -- hard coded data
     -- let's start with the Provider and a store
 
-#### v12 nucampsite slices
+#### v12 nucampsite slices : campsitesSlice
 
-    -- slice for each of campsites, comments, partners and promotions
+    -- campsitesSlice
+    -- bring our filter from before into our slice as a selector
+
+
+
+
+-- slice for each of campsites, comments, partners and promotions
 
 #### v13 nucampsite selectors
 

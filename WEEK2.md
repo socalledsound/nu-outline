@@ -3,7 +3,7 @@
 week 3 old stuff:
 object destructuring is in week 1
 LIFTING STATE UP important.
-    (but abramov and others now not so interested in it)
+(but abramov and others now not so interested in it)
 
 #
 
@@ -19,7 +19,7 @@ i'd like to add importing images
 
     -- Router in index
     -- Switch, Route, Redirect in App
-    -- let's make some page stubs
+    -- let's make some page stubs for Contact, About and
 
 #### v3 Header (10 mins?)
 
@@ -56,10 +56,10 @@ i'd like to add importing images
     -- generally hooks replace the most important elements of class based components
     -- one reason they're better is, they are specific to a certain task
     -- this is good functional programming!!!
-    -- a few gotchas:
-        -- hooks can only be called in a functional component,
-            they're part of react so if you try to use it outside of a react component it won't work
-        -- hooks can't be called conditionally. 
+        -- hooks can't be called conditionally.
+        also this stuff, nice summary:
+    https://owenconti.com/posts/hooks-can-only-be-called-inside-the-body-of-a-function-component-reactjs-error
+
 #### v9 useState
 
     --useState()
@@ -79,13 +79,13 @@ i'd like to add importing images
 --CampsiteDetailPage
 -- move campsite detail to a new page and use the cool hook
 
+### v13 understanding useState by building it
 
-### v13  understanding useState by building it
-### should this be extra?  or included at all?
-
+### should this be extra? or included at all?
 
     -- module pattern and closures in javascript
     -- [enclosedValue, functionToUpdate ] = useState(initialValue)
+
 # week2 workshop:
 
 similar to week 3 workshop.

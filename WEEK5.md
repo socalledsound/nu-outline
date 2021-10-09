@@ -19,13 +19,20 @@
 
 #### v2 PROMISES
 
-#### v3 API call side project with react query
+#### v3 basic API call with useEffect()
 
     -- (RESEARCH SOME COOLER APIS?)
 
-#### v4
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
+
+#### v4 Async Redux 1: thunks pt 1
+
+#### v5 Async Redux 2: thunks pt 2
+
+#### v6 Async Redux 3: createAsyncThunk
+
+#### v7 campsitesSlice Async stuff
 
 # ((( will have to also refactor the animations )))
 
 WORKSHOP:
-same as before but hopefully more manageable now!
