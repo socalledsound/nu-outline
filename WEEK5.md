@@ -35,6 +35,21 @@ https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
 # ASYNC animations
 
+
+
+# CAROUSEL ALT
+
+    -- let's add a toggle to an alternate style for thisthis page, 
+#### v8
+
+    -- CHALLENGE -- make the buttons and a toggle using useState
+    -- challenge answer
+    -- two options, for now one just says carousel
+    -- the other one, we build:
+        -- introducing react spring
+
+
+
 WORKSHOP:
 as before, adding the createAsyncThunk for partners
 comment form, post feedback
