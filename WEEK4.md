@@ -116,9 +116,6 @@ flux
     -- campsitesSlice
     -- bring our filter from before into our slice as a selector
 
-
-
-
 -- slice for each of campsites, comments, partners and promotions
 
 #### v13 nucampsite selectors
@@ -126,6 +123,8 @@ flux
 ### workshop:
 
     create a userSlice in the nucampsite
+    show user avatar in header (can we use a picture of a unicorn please?)
+    if clicked after login display user info in modal
     utilize the user on the comments page
-    set the user in initial state so we don't have to log in every time
+    (finish by setting the user in initial state so we don't have to log in every time)
     (it would be cool to come back to this in the node course....)

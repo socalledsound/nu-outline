@@ -99,7 +99,8 @@ challenge: object destructuring from week 3
     - The virtual DOM
         -- Fiber
         -- reconciliation
-        --
+        maybe a bit more but not too much
+        https://www.velotio.com/engineering-blog/react-fiber-algorithm
     - also mention that more broadly most node projects, not just React, start at an index.js
 
 #### video 9 Components - 7.5 mins?
@@ -187,9 +188,7 @@ challenge: object destructuring from week 3
         --utils
         -- we won't have anything in them yet.
 
-## video 18 : what are features?
-
-## video 20 : the App component
+## video 19 : the App component
 
     create the App component
         -- css className

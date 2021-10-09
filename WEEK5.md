@@ -1,6 +1,6 @@
 ## React Course Outline week 5
 
-# ASYNC REDUX ++ ASYNC JAVASCRIPT
+# ASYNC REDUX ++ ASYNC JAVASCRIPT ++ let's make that carousel
 
 ## old stuff to keep:
 
@@ -33,6 +33,12 @@ https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
 #### v7 campsitesSlice Async stuff
 
-# ((( will have to also refactor the animations )))
+# ASYNC animations
 
 WORKSHOP:
+as before, adding the createAsyncThunk for partners
+comment form, post feedback
+-- do we want to have a reviews page?
+updating the animation on the about component
+
+can we have an advanced react course that uses firebase please???

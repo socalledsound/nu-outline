@@ -2,7 +2,7 @@
 
 week 3 old stuff:
 object destructuring is in week 1
-LIFTING STATE UP important.
+LIFTING STATE UP important. need a good example maybe do image liking in this week?
 (but abramov and others now not so interested in it)
 
 #
@@ -45,6 +45,7 @@ i'd like to add importing images
     -- what are the main hooks?
         useState
         useEffect
+        -- should I mention these or others that we won't be using?
         useRef
         useCallback
         useMemo
@@ -57,34 +58,37 @@ i'd like to add importing images
     -- one reason they're better is, they are specific to a certain task
     -- this is good functional programming!!!
         -- hooks can't be called conditionally.
-        also this stuff, nice summary:
+        also this stuff we can't do with hooks, nice summary:
     https://owenconti.com/posts/hooks-can-only-be-called-inside-the-body-of-a-function-component-reactjs-error
 
 #### v9 useState
 
     --useState()
     -- lets access 'state'
+     -- [enclosedValue, functionToUpdate ] = useState(initialValue)
     -- (array destructuring aleady covered but remind them)
+    -- should we cover closures/how useState actually works?
     --clickable heart with FA
         -- ternary operator
 
 #### v11 useState on CampsiteDirectoryPage
 
+    -- lifting state
+
     -- Selected Campsite
     -- useState on Campsite Directory Page for selectedCampsite -- >
-    -- campsiteDetail component
+    -- campsiteDetail component on same page
 
 ### v12 and finally : params + useParams()
 
 --CampsiteDetailPage
 -- move campsite detail to a new page and use the cool hook
 
-### v13 understanding useState by building it
-
 ### should this be extra? or included at all?
 
+### v13 understanding useState by building it
+
     -- module pattern and closures in javascript
-    -- [enclosedValue, functionToUpdate ] = useState(initialValue)
 
 # week2 workshop:
 
