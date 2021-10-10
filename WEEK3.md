@@ -49,40 +49,76 @@ libraries entirely and just use css with custom hooks? but for now let's use spr
 
 #### v4 animate on page load using useEffect()
 
-#### v5 animate on toggle using useEffect()
+#### v5 animate on toggle using useEffect() with dependencies
 
 #### v6 animating with useSpring()
-
+    -- gives us 'pysics-based' animations 
+    -- what does that mean? easing curves.
+    -- also, it's bomb easy to use and has a lot of advanced features, too
+    -- let's use it for a bounce animation
+    -- so now you know quite a bit about animation, let's apply it to our site
 #### v7 let's animate the loading of our home page
 
     -- animated menu feature
-        -- featured items (at this point they're coming down
-        as props from the App)
+        -- featured items (still hard coded data at this point)
 
-#### v8
 
-    -- CHALLENGE -- make the buttons and a toggle using useState
-    -- challenge answer
-    -- two options, for now one just says carousel
-    -- the other one, we build:
-        -- introducing react spring
 
 start with a simple custom hook that chooses the animation component to render
 
 Fade In card with useTransition()
 
+# see how much time just the formik takes up here
+
     <!-- SIDE PROJECT: log in user useForm hook ?
-    JS: SPREAD SYNTAX
+
+#
+
+#### v8 FORMS with Formik - 1 - html form review
+    -- form
+    -- input with id, name, type, onChange, value
+    -- submit button
+    -- but how do we update the value with the things the user types?
+    -- we could use useState like this....
+    -- but this will get complicated fast
+    -- one idea is to make a custom hook -- i;ll show you how to do that later if you like but
+    -- the easy choice is a library like Formik
+
+# are we using the Formik hook or the component?
+
+    -- if using the component then maybe we start with our own custom hook?
+    -- or with the useFormik version like in the docs 
+
+#### v9 formik 2 : useFormik
+    -- useFormik is a hook which returns a formik object with keys for 
+    values, handleChange and handleSubmit
+    --let's add the values and handleChange to our form now
+    -- now what about handleSubmit?  let's do that in the next video
+#### v10 handleSubmit + computed property names
+
+#### v11 validation : 
+    -- do we want to keep our own validation or use Yup?
+    -- people get irritated about regex and yup seems pretty easy
+
+
+#### v12
+
+
+
+    JS: SPREAD SYNTAX -- ??? what was that for in the old version?
     JS: COMPUTED PROPERTY NAMES
-    JS: REGEX --
+    JS: REGEX -- or use yup
 
 
     FORMIK
 
 
+
+
     -- useform hook ?
 
-week 3 workshop:
+### week 3 workshop:
+
 comments form
 just log it to the console for now
 

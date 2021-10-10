@@ -39,7 +39,19 @@ https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
 # CAROUSEL ALT
 
-    -- let's add a toggle to an alternate style for thisthis page, 
+    -- ok, now that you've learned React and Redux, I've got an assignment for you.
+    -- I'm kind of a tough client. you built one version of the home page, but I want a
+    different one.  Everybody's talking about these Carousel things and I want one.
+    -- here's what I want: (show it.)
+    -- Can you do it?
+    -- Start by adding some buttons to the home page, so we can toggle back and forth between
+    styles.
+    -- then write a Carousel component page, that we go to when button 2 is clicked.
+    -- Once you've got that out of the way, take a stab at implementing a carousel!
+    -- here's a hint: you can use React spring.
+  
+    
+    -- now go see if you can build out the buttons and the toggle, using what you know 
 #### v8
 
     -- CHALLENGE -- make the buttons and a toggle using useState
