@@ -7,7 +7,7 @@
 
 # week 4 REDUX
 
-#### v0 let's brush up on functions
+#### v1 a deeper dive into functions
 
     -- show them something like
         (() => (()=>) =>)()
@@ -25,22 +25,26 @@
         -- redux is actually SO SMALL and so focused, once you understand it, you'll realize it's not that big of a deal
         -- what's hard, actually, is state management
 
-##### v2 3-5 mins WHAT IS REDUX
+##### v3 3-5 mins WHAT IS REDUX 1
 
 What is redux?
 -- what is an application and how is it different from a website?
--- seperation of concerns: seperate out the VIEW aka side effects
+
 -- different architectures - MVC, FLUX (position flux within functional paradigm)
 (should I mention smalltalk? I'd like to try but might cut it)
 https://medium.com/@garychambers108/understanding-flux-f93e9f650af7
 flux
+
+##### v4 3-5 mins WHAT IS REDUX 2
+
+-- seperation of concerns: seperate out the VIEW aka side effects
 -- VIEW -> DISPATCH -> ACTION -> STORE -> VIEW
 -- (also, REDUCER, which is part of the store)
 -- SINGLE SOURCE OF TRUTH
 
 ## now we tackle each one of those things, start with REDUCER but first, let's understand Array.reduce() and understand what it has to do with redux.
 
-#### v3 7.5 mins ARRAY.REDUCE (should this go before redux intro?)
+#### v5 7.5 mins ARRAY.REDUCE (should this go before redux intro?)
 
     Array.reduce()
     SCARY!  But amazing.
@@ -50,8 +54,12 @@ flux
     ie we use reduce to immutable update our single state object?
     one more example, where we return an object
     THE REDUCER IS THE FUNCTION YOU PASS IN TO REDUCE
+    -- REDUCERS ARE SO NEAT.
+    -- Andrew Clark: 'The good part of Redux is the reducers.'
+    -- let's try to understand what this means.
+    -- ok so we know a reducer is the function we pass in to Array.reduce.
 
-#### v4 3-5 mins Small Redux App (this will be several videos)
+#### v6 3-5 mins Small Redux App (this will be several videos)
 
     PROJECT: build a small app
     Drawing app (or likable images app???  drawing app has less setup)
@@ -65,7 +73,9 @@ flux
         -- but how do we connect these things?  and what if we have multiple users?  I think we might could need redux.
         -- let's add a store
 
-##### v5 3-5 mins STORE
+##### v7 we need a PROVIDER
+
+##### v8 3-5 mins STORE
 
     THE STORE
         -- is the single source of truth, the god dream.
@@ -76,51 +86,58 @@ flux
     now let's build it with redux.  we pass in a reducer to configureStore and we're done.
     but oh shit, we need a reducer
 
-#### v6 3-5 mins REDUCER
+#### v9 3-5 mins REDUCER
 
-    -- ok so we know a reducer is the function we pass in to Array.reduce.
     -- why do we need a reducer again?  let's look at what that dispatch method of our store does
     -- (acc, cur) becomes (state, action)
     -- (and we can also pass in an initial state)
     -- make the reducer, which will add a sketch to a list of sketches when it receives the appropriate action.
+    -- the next state is the combination of the current state and a received action
     -- oh shit we need an action
 
-#### v7 ACTIONS
+#### v10 ACTIONS
 
-#### v8 DISPATCH
+    -- one thing that can be really helpful is to think of these as 'events' rather than actions.
+    --
+
+#### v11 DISPATCH
 
         DISPATCH
         https://dev.to/dustinmyers/what-even-is-a-dispatch-function-27ma
         UseDispatch()
 
-#### v9 SELECTORS
+#### v12 SELECTORS
 
         -- but how do we get our data?
         -- useSelector()
 
-#### v10 SLICES (should this go before actions?)
+#### v13 SLICES
 
-    -- if here, after introducing the characters, then refactor
-    -- else if earlier then refactor just means moving the reducer
+#### v14 slices in our drawing app
+
+    -- refactor to use a gallery slice
+    -- and a user slice
     -- also have a userslice here?
 
-##### v 10.5 we need a PROVIDER
-
-#### v11 let's start implementing this in our nucampsite: store and provider
+#### v15 let's start implementing this in our nucampsite: store and provider
 
     -- hard coded data
     -- let's start with the Provider and a store
 
-#### v12 nucampsite slices : campsitesSlice
+#### v16 nucampsite slices : campsitesSlice
 
     -- campsitesSlice
     -- bring our filter from before into our slice as a selector
 
--- slice for each of campsites, comments, partners and promotions
+#### v17 campsitesSlice selectors
 
-#### v13 nucampsite selectors
+#### v17 nucampsite slices : comments partners promotions
+
+-- slice for comments, partners and promotions
 
 ### workshop:
+
+TOPICS FOR REVIEW:
 
     create a userSlice in the nucampsite
     show user avatar in header (can we use a picture of a unicorn please?)

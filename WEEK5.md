@@ -35,8 +35,6 @@ https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
 
 # ASYNC animations
 
-
-
 # CAROUSEL ALT
 
     -- ok, now that you've learned React and Redux, I've got an assignment for you.
@@ -49,9 +47,10 @@ https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
     -- then write a Carousel component page, that we go to when button 2 is clicked.
     -- Once you've got that out of the way, take a stab at implementing a carousel!
     -- here's a hint: you can use React spring.
-  
-    
-    -- now go see if you can build out the buttons and the toggle, using what you know 
+
+
+    -- now go see if you can build out the buttons and the toggle, using what you know
+
 #### v8
 
     -- CHALLENGE -- make the buttons and a toggle using useState
@@ -60,9 +59,10 @@ https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API
     -- the other one, we build:
         -- introducing react spring
 
-
-
 WORKSHOP:
+
+TOPICS FOR REVIEW:
+
 as before, adding the createAsyncThunk for partners
 comment form, post feedback
 -- do we want to have a reviews page?

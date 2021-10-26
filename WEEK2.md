@@ -15,7 +15,9 @@ i'd like to add importing images
 
 #### v1 what is a SPA ( 3-5 mins)
 
-#### v2 react-router (7.5 mins)
+#### v2 react-router (3-5 mins)
+
+#### v2 react-router in our project (7.5 mins)
 
     -- Router in index
     -- Switch, Route, Redirect in App
@@ -68,6 +70,9 @@ i'd like to add importing images
      -- [enclosedValue, functionToUpdate ] = useState(initialValue)
     -- (array destructuring aleady covered but remind them)
     -- should we cover closures/how useState actually works?
+
+#### v10 make a clickable heart with FA
+
     --clickable heart with FA
         -- ternary operator
 
@@ -86,12 +91,13 @@ i'd like to add importing images
 
 ### should this be extra? or included at all?
 
-### v13 understanding useState by building it
+### v15 OPTIONAL understanding useState by building it
 
     -- module pattern and closures in javascript
 
 # week2 workshop:
 
+TOPICS FOR REVIEW:
 similar to week 3 workshop.
 new Feature: partners
 -- PartnersList

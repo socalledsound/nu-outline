@@ -111,16 +111,21 @@ challenge: object destructuring from week 3
         -- look at heart as a square and two circles.
         -- before we continue let's make sure we understand imports and exports
 
-#### video 10 App (+ JSX) - 7.5 mins?
+#### video 10 CLASS BASED COMPONENTS vs functions
+
+    -- a class is a special type of function that returns an Object.
+    -- there's another way to create React components - as classes
+    -- at one time these were very useful for managing the state of your application.
+    -- now with hooks they are not recommended
+    -- it's kind of a thing of the past but still a great thing to know about
+    -- BUT - classes are still very much a thing in javascript and an important thing to know about!
+    -- For instance, Array is a class.
+
+#### video 11 App (+ JSX) - 7.5 mins?
 
     App Component (will just be a container)
         --write the app and export it then import it.
         -- JSX
-
-#### video 11 Heart + Circle + Square PROPS -- 10 mins
-
-    -- pass the heart a position from the App
-    -- then pass positions to the Circle and Square
 
 #### video 12 Object and Array Destructuring -- 5 mins?
 
@@ -131,20 +136,15 @@ challenge: object destructuring from week 3
         as we'll find out when we get to hooks and redux!
     JS: object AND ARRAY destructuring (CODE CHALLENGE HERE?)
 
-#### video 13 Array methods : Array.from() and Array.map() -- making a bunch of randomly placed hearts
+#### video 13 Heart + Circle + Square PROPS -- 10 mins
+
+    -- pass the heart a position from the App
+    -- then pass positions to the Circle and Square
+
+#### video 14 Array methods : Array.from() and Array.map() -- making a bunch of randomly placed hearts
 
     -- In our App, let's make an Array of random positions
     -- leave them with a challenge to take a getRandomColor function and make the hearts all have random colors.
-
-#### video 14 classes in javascript
-
-    -- a class is a special type of function that returns an Object.
-    -- there's another way to create React components - as classes
-    -- at one time these were very useful for managing the state of your application.
-    -- now with hooks they are not recommended
-    -- it's kind of a thing of the past but still a great thing to know about
-    -- BUT - classes are still very much a thing in javascript and an important thing to know about!
-    -- For instance, Array is a class.
 
 #### video 15 Understand Array.map() by implementing our own array class (is this too much?)
 
@@ -158,7 +158,7 @@ challenge: object destructuring from week 3
                 return arr
             }
 
-#### video 16 : Challenge answer
+#### video 16 : Using Array.map to make random hearts
 
 #
 
@@ -166,16 +166,16 @@ challenge: object destructuring from week 3
 
 #
 
-## video 16 : Starting the Nucamp Project 1: overview and intro
+## video 17 : Starting the Nucamp Project 1: overview and intro
 
     Overview:  let's look at animage of the finished site home page and try to understand it as components.
 
-## video 17 :
+## video 18 :
 
     CRA
     delete the source and start over, writing out index.js and App.js
 
-## video 18 : file structure
+## video 19 : file structure
 
     create the folders we'll eventually need:
         --app - 'shared' folder.  show them the data right off the bat.
@@ -188,7 +188,7 @@ challenge: object destructuring from week 3
         --utils
         -- we won't have anything in them yet.
 
-## video 19 : the App component
+## video 20 : the App component
 
     create the App component
         -- css className
@@ -197,7 +197,7 @@ challenge: object destructuring from week 3
 
 ## workshop week 1:
 
-    TOPICS:
+    TOPICS FOR REVIEW:
         -- functional javascript
         -- the dom and virtual dom
         -- object and array destructuring
