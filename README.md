@@ -1,36 +1,72 @@
+# TODO
+
+    BRING GIT AND GITHUB BACK IN -- very difficult to get help without it.
+    note which are big picture and which are exercise
+
 # nucamp react course rewrite outline, one page for each week
 
 ## overview:
 
-### week1 : introduction to react
+## week1 : introduction to react
 
-    1: welcome to the course                        -- 2 mins
+##### PART 1 : react without react
+
+    1: welcome to the course, react is cool                        -- 2 mins
+    2: react core principles -- 5 mins
+    3. CORE JS - the DOM
+    (constants?)
+    4. r-w-r create and render element
+    5. CORE JS -- functions of a higher order
+    6. r-w-r -- Welcome Message, App and render
+    7. CORE JS -- object destructuring
+    8. r-w-r -- Welcome Message with props
+    9. CORE JS -- template literals
+    10. r-w-r -- Welcome Message as a template
+    11. CORE JS -- Array methods: Array.map()
+    12. r-w-r -- several welcome messages
+
+    <!-- 13. Proxies
+    7. environment setup -->
+
+    <!-- 2-2 parts: react without react1: the non-virtual dom
+    3-2 parts: react without react2: composing with functions
+    3B also has template literals -->
+
+<!--
+    alt2: review: the DOM
     2: react x react 1: DOM manipulation with JS    -- 7.5 mins
-    3: react x react 2: composing with functions    -- 7.5 mins
+    3: react x react 2: composing with functions    -- 7.5 mins -->
+
     4: environment setup                            -- 5 mins
 
-##### we don't need this here if we use moodle links
+<!-- ##### we don't need this here if we use moodle links
 
-    5: leveraging git and github                    -- 10 mins
+    5: leveraging git and github                    -- 10 mins -->
 
-#####
+##### PART 2 React Hearts
 
+    STARTS VIDEO 13 now
     ## react hearts/react ice cream/small app
-    6: create react app                             -- 5 mins
-    7: import export                                -- 5 mins
-    8: ReactDOM                                     -- 5 mins
-    9: Components                                   -- 7.5 mins
-    10 CLASS components                             -- 7.5 mins
-    11 App Component                                -- 7.5 mins
-    12 Object and Array destructuring               -- 5 mins
-    13 Heart + Circle + Square PROPS                -- 10 mins
-    14 Array Methods: Array.from and Array.map      -- 7.5 mins
-    15 Understaning Array.map by building it        -- 10 mins
-    16 Using Array.map to make random hearts
-    ##
-    17 Starting the Nucamp Project: overview        -- 5 mins
-    18 CRA the nucamp project                       -- 5 mins
-    19 Setting up file structure                    -- 5 mins
+    13: create react app                             -- 5 mins
+    14: CORE JS : import export                                -- 5 mins
+    15: ReactDOM                                     -- 5 mins
+    16: Components                                   -- 7.5 mins
+    17: CLASS components                             -- 7.5 mins
+    18: App, Heart, Circle, Square components
+    19. multiple Hearts
+    <!-- 18: App Component                                -- 7.5 mins
+    19: Object and Array destructuring               -- 5 mins
+    20: Heart + Circle + Square PROPS                -- 10 mins -->
+    <!-- Array Methods: Array.from and Array.map      -- 7.5 mins
+    15 Understaning Array.map by building it        -- 10 mins -->
+    <!-- 21 Using Array.map and Array.from to make random hearts  -->
+
+##### PART 3 Nucamp Project (or should this just be in workshop>?)
+
+    20 Starting the Nucamp Project: overview        -- 5 mins
+    21 CRA the nucamp project                       -- 5 mins
+    22 getting started with git and github
+    23 Setting up file structure                    -- 5 mins
     20 Making the App component                     -- 5 mins
 
     extra material: git and github
@@ -49,8 +85,8 @@
             -- file structure of a react app
         TASKS:
             task 1: create features/campsite, campsite List and campsite Card
-            task 2: work on the header
-            task 3: work on the footer
+            task 2: work on the header?
+            task 3: work on the footer?
 
 ### week2: Hooks, State, Router
 
@@ -160,6 +196,10 @@
         TOPICS FOR REVIEW:
 
         TASKS:
+
+### appendix 1: javascript concepts
+
+### appendix 2: react without react mach 2
 
 ### week 6 advanced topics for another course
 
